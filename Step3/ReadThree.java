@@ -15,6 +15,7 @@ public class ReadThree
             PrintWriter fileOut = new PrintWriter("output.txt");
             // Write text just like we would to the console
             fileOut.println("Hello ");
+            fileOut.println("ZipCode");
             // Clode out file
             fileOut.close();  
 
